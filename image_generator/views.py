@@ -13,9 +13,6 @@ from django import forms
 class ImageUploadForm(forms.Form):
     image = forms.ImageField()
 
-def index(request):
-    return render(request,"index.html")
-
 
 @csrf_exempt
 def image2text(request):
