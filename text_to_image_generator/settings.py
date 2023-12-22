@@ -31,14 +31,15 @@ ALLOWED_HOSTS = ['.vercel.app','*']
 
 # Application definition
 
-INSTALLED_APPS = [
-    'image_generator',
+INSTALLED_APPS = [    
+    'image_generator',    
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
